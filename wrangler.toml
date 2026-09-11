@@ -1,7 +1,9 @@
 # Cloudflare Configuration for MongolType
 name = "mongoltype"
 compatibility_date = "2024-09-01"
-pages_build_output_dir = "dist"
+
+[build]
+command = "npm run build"
 
 [assets]
 directory = "./dist"
@@ -11,5 +13,6 @@ ENVIRONMENT = "production"
 ENABLE_CDN_CACHE = "true"
 CACHE_CONTROL_STATIC = "public, max-age=31536000, immutable"
 
+# Edge rules and limits
 [limits]
 cpu_ms = 50
