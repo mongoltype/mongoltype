@@ -1,0 +1,6 @@
+{
+  "name": "MongolType",
+  "description": "Modern real-time competitive typing platform focused on improving Mongolian Cyrillic keyboard typing skills with live multiplayer races and analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
